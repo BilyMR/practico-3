@@ -6,7 +6,7 @@ int main()
     
     do{
         std::cin>>n>>k;
-    } while(n <= 0 || n > 7 && k <= 0 || k > 99);
+    } while(n <= 0 || n > 7 || k <= 0 || k > 99);
     
     if(n == 1) {
         for(int i = 1; i <= k; i++){
